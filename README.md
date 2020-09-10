@@ -57,3 +57,4 @@ LIST IN PYTHON
 10
 >>>sum(nums)
 38
+
