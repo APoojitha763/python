@@ -1,5 +1,5 @@
 LIST IN PYTHON
-
+*****initialising numbers*****
 >>> nums=[1,2,3,4,5]
 >>> nums
 [1, 2, 3, 4, 5]
@@ -12,10 +12,13 @@ LIST IN PYTHON
 [3]
 >>> nums[1:3]
 [2, 3]
+****initialising strings****
 >>> names=['pooji','malli']
+****Two format of list working together****
 >>> mill=[nums,names]
 >>> mill
 [[1, 2, 3, 4, 5], ['pooji', 'malli']]
+****Operatios****
 >>> nums.append(6)
 >>> nums
 [1, 2, 3, 4, 5, 6]
@@ -39,6 +42,7 @@ LIST IN PYTHON
 >>> nums.extend([7,8,9,10])
 >>> nums
 [1, 2, 7, 8, 9, 10]
+****Using Inbuilt Functions****
 >>> min(nums)
 1
 >>> del nums[2:]
@@ -49,10 +53,7 @@ LIST IN PYTHON
 [1, 2, 7, 8, 9, 10]
 >>> min(nums)
 1
->>> nums.insert(2,12)
->>> nums.insert(0,24)
->>> nums.insert(4,0)
->>> nums
-[24, 1, 2, 12, 0, 7, 8, 9, 10, 66]
->>> sorted(nums)
-[0, 1, 2, 7, 8, 9, 10, 12, 24, 66]
+>>> max(nums)
+10
+>>>sum(nums)
+38
